@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">   
+    <title>Result</title>
+    
+  </head>
+  <body>
+    <h1 class="h1"><u>Submitted Info</u></h1>
+    <h5 class="display4">Name: {{request.form["name"]}}</h5>
+    <h5 class="display4">Dojo Location: {{request.form["dojo_location"]}}</h5>
+    <h5 class="display4">Favorite Language: {{request.form["fav_language"]}}</h5>
+    <h5 class="display4">Comments: {{request.form["comments"]}}</h5>
+<a href="/"><button type="button" class="btn btn-primary">Go back</button></a>
+    
+
+    </body>
+</html>
